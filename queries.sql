@@ -14,7 +14,7 @@ SELECT * FROM `courses` WHERE `period` = "I semestre" AND `year` = 1
 SELECT * FROM `exams` WHERE HOUR(`hour`) >= 14.00 AND YEAR(`date`) = 2020 AND MONTH(`date`) = 06 AND DAY(`date`) = 20
 
 -- 6. Selezionare tutti i corsi di laurea magistrale (38)
-
+SELECT * FROM `degrees` WHERE `level` = "magistrale"
 
 -- 7. Da quanti dipartimenti è composta l'università? (12)
 
